@@ -1,2 +1,2 @@
-# Anal-tica-Empresarial-Integrada
+# Analitica-Empresarial-Integrada
 Business Analytics | Data Analytics | Predictive Analytics | Optimización | IA Generativa  
