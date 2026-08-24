@@ -1,7 +1,5 @@
 # 📊 Analítica Empresarial Integrada — TECSUP 2026-II
 
-> Business Analytics | Data Analytics | Predictive Analytics | Optimización | IA Generativa
-
 ---
 
 <p align="center">
