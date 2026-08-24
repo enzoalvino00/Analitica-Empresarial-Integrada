@@ -9,95 +9,163 @@ Repositorio académico que reúne los contenidos, laboratorios y proyectos desar
 ## 📚 Planificación del curso
 
 ### 📊 Unidad 1 · El valor del dato y la métrica de negocio
-
 **Semanas 1–4**
 
 <details>
 <summary><strong>Ver contenidos y laboratorios</strong></summary>
 
-| Semana | Tema                                               | Contenidos                                                                                                                                                                 | Laboratorio / Entrega                                                                                                               |
-| :----: | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **01** | **La empresa analítica en la era de la IA**        | Analítica empresarial integrada; dato e información como activos estratégicos; analítica descriptiva, diagnóstica, predictiva y prescriptiva; causas de fracaso analítico. | **Lab D1:** Diagnóstico del uso de la analítica en una empresa peruana mediante evidencia pública. Configuración de Colab y GitHub. |
-| **02** | **Competencia analítica y madurez organizacional** | Cinco estadios de evolución analítica; modelo DELTA; atributos de una empresa competidora analítica; impacto de la IA generativa en la madurez.                            | **Lab D2:** Perfil comparado de empresas con Polars y DuckDB. Métricas de escala, desempeño y riesgo. **LC1:** semanas 1 y 2.       |
-| **03** | **La métrica que importa**                         | Árbol de métricas; North Star; KPI accionables frente a métricas de vanidad; métricas de adquisición, retención, margen y eficiencia.                                      | **Lab D3:** Árbol de métricas y tablero base con Plotly.                                                                            |
-| **04** | **Analítica diagnóstica: ¿por qué pasó?**          | Descomposición precio, volumen y mezcla; cohortes y retención; segmentación explicativa; identificación del driver dominante.                                              | **Lab D4:** Diagnóstico de una caída de ventas y análisis de cohortes. **LC2 y T1.**                                                |
+| Semana | Tema | Contenidos | Laboratorio / Entrega |
+|:---:|---|---|---|
+| **01** | **La empresa analítica en la era de la IA** | Analítica empresarial integrada; dato e información como activos estratégicos; analítica descriptiva, diagnóstica, predictiva y prescriptiva; causas de fracaso analítico. | **Lab D1:** Diagnóstico del uso de la analítica en una empresa peruana mediante evidencia pública. Configuración de Colab y GitHub. |
+| **02** | **Competencia analítica y madurez organizacional** | Cinco estadios de evolución analítica; modelo DELTA; atributos de una empresa competidora analítica; impacto de la IA generativa en la madurez. | **Lab D2:** Perfil comparado de empresas con Polars y DuckDB. Métricas de escala, desempeño y riesgo. **LC1:** semanas 1 y 2. |
+| **03** | **La métrica que importa** | Árbol de métricas; North Star; KPI accionables frente a métricas de vanidad; métricas de adquisición, retención, margen y eficiencia. | **Lab D3:** Árbol de métricas y tablero base con Plotly. |
+| **04** | **Analítica diagnóstica: ¿por qué pasó?** | Descomposición precio, volumen y mezcla; cohortes y retención; segmentación explicativa; identificación del driver dominante. | **Lab D4:** Diagnóstico de una caída de ventas y análisis de cohortes. **LC2 y T1.** |
 
 </details>
 
 ---
 
 ### 🎯 Unidad 2 · Decisión, experimentación y causalidad
-
 **Semanas 5–8**
 
 <details>
 <summary><strong>Ver contenidos y laboratorios</strong></summary>
 
-| Semana | Tema                                    | Contenidos                                                                                                                   | Laboratorio / Entrega                                                                                  |
-| :----: | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **05** | **Decidir bajo incertidumbre**          | Intervalos de confianza; tamaño de efecto; riesgo; valor esperado; costo de una decisión equivocada; simulación Monte Carlo. | **Lab D5:** Simulación Monte Carlo de una inversión o cambio de precio.                                |
-| **06** | **Experimentación empresarial**         | Diseño A/B; hipótesis; potencia estadística; tamaño de muestra; errores tipo I y II; métrica primaria y guardrails.          | **Lab D6:** Diseño y análisis completo de un experimento A/B. **LC3 y checkpoint PMD1.**               |
-| **07** | **Causalidad: correlación no es causa** | Confusores; sesgo de selección; paradoja de Simpson; grafos causales; diferencias en diferencias y control sintético.        | **Lab D7:** Evaluación causal de una campaña mediante diferencias en diferencias. Preparación de PMD1. |
-| **08** | **Evaluación del Bloque I**             | Integración de los aprendizajes desarrollados durante las semanas 1 a 7.                                                     | **T2:** Evaluación individual. **LC4 — PMD1:** Informe gerencial, notebook y sustentación.             |
+| Semana | Tema | Contenidos | Laboratorio / Entrega |
+|:---:|---|---|---|
+| **05** | **Decidir bajo incertidumbre** | Intervalos de confianza; tamaño de efecto; riesgo; valor esperado; costo de una decisión equivocada; simulación Monte Carlo. | **Lab D5:** Simulación Monte Carlo de una inversión o cambio de precio. |
+| **06** | **Experimentación empresarial** | Diseño A/B; hipótesis; potencia estadística; tamaño de muestra; errores tipo I y II; métrica primaria y guardrails. | **Lab D6:** Diseño y análisis completo de un experimento A/B. **LC3 y checkpoint PMD1.** |
+| **07** | **Causalidad: correlación no es causa** | Confusores; sesgo de selección; paradoja de Simpson; grafos causales; diferencias en diferencias y control sintético. | **Lab D7:** Evaluación causal de una campaña mediante diferencias en diferencias. Preparación de PMD1. |
+| **08** | **Evaluación del Bloque I** | Integración de los aprendizajes desarrollados durante las semanas 1 a 7. | **T2:** Evaluación individual. **LC4 — PMD1:** Informe gerencial, notebook y sustentación. |
 
 </details>
 
 ---
 
 ### 📈 Unidad 3 · Analítica predictiva y prescriptiva
-
 **Semanas 9–12**
 
 <details>
 <summary><strong>Ver contenidos y laboratorios</strong></summary>
 
-| Semana | Tema                                      | Contenidos                                                                                                                             | Laboratorio / Entrega                                                                     |
-| :----: | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **09** | **Analítica de clientes**                 | Propensión; fuga de clientes; valor de vida del cliente; RFM; umbral de decisión y valor económico de la intervención.                 | **Lab D9:** Modelo de churn con scikit-learn y evaluación económica.                      |
-| **10** | **Pronóstico de demanda**                 | Tendencia, estacionalidad, ciclos y quiebres; modelos base; validación temporal y backtesting; error expresado en términos de negocio. | **Lab D10:** Pronóstico con comparación frente a un modelo ingenuo. **LC5.**              |
-| **11** | **Analítica prescriptiva y optimización** | Programación lineal y entera; función objetivo; restricciones operativas; asignación de inventario, turnos, rutas y presupuesto.       | **Lab D11:** Optimización de recursos con PuLP y comparación con la decisión intuitiva.   |
-| **12** | **Analítica de procesos internos**        | Analítica en finanzas, operaciones, calidad e I+D; anomalías y fraude; cartas de control; productividad y rotación.                    | **Lab D12:** Detección de anomalías y construcción de una carta de control. **LC6 y T3.** |
+| Semana | Tema | Contenidos | Laboratorio / Entrega |
+|:---:|---|---|---|
+| **09** | **Analítica de clientes** | Propensión; fuga de clientes; valor de vida del cliente; RFM; umbral de decisión y valor económico de la intervención. | **Lab D9:** Modelo de churn con scikit-learn y evaluación económica. |
+| **10** | **Pronóstico de demanda** | Tendencia, estacionalidad, ciclos y quiebres; modelos base; validación temporal y backtesting; error expresado en términos de negocio. | **Lab D10:** Pronóstico con comparación frente a un modelo ingenuo. **LC5.** |
+| **11** | **Analítica prescriptiva y optimización** | Programación lineal y entera; función objetivo; restricciones operativas; asignación de inventario, turnos, rutas y presupuesto. | **Lab D11:** Optimización de recursos con PuLP y comparación con la decisión intuitiva. |
+| **12** | **Analítica de procesos internos** | Analítica en finanzas, operaciones, calidad e I+D; anomalías y fraude; cartas de control; productividad y rotación. | **Lab D12:** Detección de anomalías y construcción de una carta de control. **LC6 y T3.** |
 
 </details>
 
 ---
 
 ### 🤖 Unidad 4 · Gobierno, IA generativa y producto de datos
-
 **Semanas 13–16**
 
 <details>
 <summary><strong>Ver contenidos y laboratorios</strong></summary>
 
-| Semana | Tema                                           | Contenidos                                                                                                                                     | Laboratorio / Entrega                                                                                                           |
-| :----: | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **13** | **Gobierno y cumplimiento normativo**          | DAMA-DMBOK; contratos de datos; linaje y catálogo; sesgo, equidad y explicabilidad con SHAP; marco normativo peruano y EU AI Act.              | **Lab D13:** Auditoría del modelo, sesgo por subgrupos, SHAP y checklist normativo.                                             |
-| **14** | **IA generativa en la analítica empresarial**  | LLM como componente analítico; text-to-SQL; RAG; agentes analíticos; alucinaciones; evaluación y situaciones en las que no debe utilizarse IA. | **Lab D14:** Asistente analítico text-to-SQL o RAG con batería de evaluación. **LC7 y checkpoint PMD2.**                        |
-| **15** | **Comunicación ejecutiva y producto de datos** | Storytelling; estructura del informe gerencial; pitch ejecutivo; despliegue con Streamlit y hoja de ruta analítica.                            | **Lab D15:** Despliegue del producto analítico y ensayo de sustentación.                                                        |
-| **16** | **Evaluación del Bloque II**                   | Integración de los aprendizajes desarrollados durante las semanas 9 a 15.                                                                      | **T4:** Evaluación individual. **LC8 — PMD2:** Pitch ejecutivo, demostración del producto desplegado e informe gerencial final. |
+| Semana | Tema | Contenidos | Laboratorio / Entrega |
+|:---:|---|---|---|
+| **13** | **Gobierno y cumplimiento normativo** | DAMA-DMBOK; contratos de datos; linaje y catálogo; sesgo, equidad y explicabilidad con SHAP; marco normativo peruano y EU AI Act. | **Lab D13:** Auditoría del modelo, sesgo por subgrupos, SHAP y checklist normativo. |
+| **14** | **IA generativa en la analítica empresarial** | LLM como componente analítico; text-to-SQL; RAG; agentes analíticos; alucinaciones; evaluación y situaciones en las que no debe utilizarse IA. | **Lab D14:** Asistente analítico text-to-SQL o RAG con batería de evaluación. **LC7 y checkpoint PMD2.** |
+| **15** | **Comunicación ejecutiva y producto de datos** | Storytelling; estructura del informe gerencial; pitch ejecutivo; despliegue con Streamlit y hoja de ruta analítica. | **Lab D15:** Despliegue del producto analítico y ensayo de sustentación. |
+| **16** | **Evaluación del Bloque II** | Integración de los aprendizajes desarrollados durante las semanas 9 a 15. | **T4:** Evaluación individual. **LC8 — PMD2:** Pitch ejecutivo, demostración del producto desplegado e informe gerencial final. |
 
 </details>
 
 ---
 
-## 🛠️ Herramientas y tecnologías
+## 🛠️ Tecnologías y Herramientas
 
-| Área                           | Tecnologías                                  |
-| ------------------------------ | -------------------------------------------- |
-| 🐍 **Programación**            | Python                                       |
-| ☁️ **Entorno de trabajo**      | Google Colab                                 |
-| 🔧 **Control de versiones**    | Git · GitHub                                 |
-| 📊 **Análisis de datos**       | Polars · DuckDB                              |
-| 📈 **Visualización**           | Plotly                                       |
-| 🤖 **Machine Learning**        | scikit-learn                                 |
-| ⚙️ **Optimización**            | PuLP                                         |
-| 🔍 **Explicabilidad**          | SHAP                                         |
-| 🌐 **Aplicaciones analíticas** | Streamlit                                    |
-| 🧠 **IA generativa**           | LLM · Text-to-SQL · RAG · Agentes analíticos |
-| 🗃️ **Consulta de datos**      | SQL                                          |
+<table>
+<tr>
+<td width="50%">
+
+### 🐍 Lenguajes
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+</td>
+
+<td width="50%">
+
+### 📊 Analytics & BI
+
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🤖 Machine Learning
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+![SHAP](https://img.shields.io/badge/SHAP-000000?style=flat-square&logoColor=white)
+
+</td>
+
+<td>
+
+### ⚙️ Optimización & Estadística
+
+![PuLP](https://img.shields.io/badge/PuLP-Optimization-4B8BBE?style=flat-square)
+![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-Simulation-6A5ACD?style=flat-square)
+![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-Experimentation-2E8B57?style=flat-square)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### ☁️ Entorno & Versionado
+
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+</td>
+
+<td>
+
+### 🌐 Aplicaciones Analíticas
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+### 🧠 IA Generativa
+
+![LLM](https://img.shields.io/badge/LLM-Generative%20AI-6A5ACD?style=flat-square)
+![Text-to-SQL](https://img.shields.io/badge/Text--to--SQL-Analytics-2F80ED?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-7B61FF?style=flat-square)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-Analytical%20Agents-8A2BE2?style=flat-square)
+
+</td>
+</tr>
+</table>
 
 ---
 
-> 📌 **Repositorio en desarrollo** · El contenido se actualizará progresivamente conforme avance el curso.
+## 📌 Estado del repositorio
+
+> 🟢 **En desarrollo** · El contenido se actualizará progresivamente conforme avance el curso.
+
+---
+
+<p align="center">
+  <sub>📊 Analítica Empresarial Integrada · Business Analytics · Data Analytics</sub>
+</p>
 
 
