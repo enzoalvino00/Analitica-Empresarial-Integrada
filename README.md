@@ -4,7 +4,7 @@
 
 <p align="center">
   <img
-    src="./Analitica-Empresarial-Integrada.gif"
+    src="./AEmpresarial.gif"
     width="1200"
     alt="Analítica Empresarial Integrada"
   >
