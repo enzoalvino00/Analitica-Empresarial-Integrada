@@ -2,6 +2,8 @@
 
 > Business Analytics | Data Analytics | Predictive Analytics | Optimización | IA Generativa
 
+---
+
 <p align="center">
   <img
     src="./AEmpresarial.gif"
